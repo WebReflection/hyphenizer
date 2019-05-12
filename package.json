@@ -1,6 +1,6 @@
 {
   "name": "hyphenizer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Transforms PascalCase to hyphen-case",
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -10,7 +10,12 @@
     "cjs": "cp index.js cjs && echo 'module.exports = hyphenizer;'>>cjs/index.js",
     "esm": "cp index.js esm && echo 'export default hyphenizer;'>>esm/index.js"
   },
-  "keywords": ["hyphen", "pascal", "case", "converter"],
+  "keywords": [
+    "hyphen",
+    "pascal",
+    "case",
+    "converter"
+  ],
   "author": "Andrea Giammarchi",
   "license": "ISC"
 }
